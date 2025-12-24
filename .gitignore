@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Telegram Eavesdropper specific
+# Telegram session files (contains authentication data)
+*.session
+*.session-journal
+
+# Output directory (downloaded files and messages)
+output/
